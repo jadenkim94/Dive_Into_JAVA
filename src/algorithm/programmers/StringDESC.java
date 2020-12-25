@@ -25,9 +25,6 @@ public class StringDESC  {
         Integer [] arr = new Integer[s.length()];
 
         for(int i = 0 ; i < s.length(); i++){
-            if(s.charAt(i) >= 'a'){
-                arr[i] = s.charAt(i) + 1000;
-            }
             arr[i] = s.charAt(i) - '0';
         }
 
