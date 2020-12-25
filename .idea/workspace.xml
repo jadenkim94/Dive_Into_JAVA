@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7c84d5-9351-4e51-81ff-fe06fa09bc4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/StringSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/algorithm/programmers/Tuple$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/algorithm/programmers/Tuple$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/algorithm/programmers/Tuple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/algorithm/programmers/Tuple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/algorithm/programmers/StringSorting$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/algorithm/programmers/StringSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/algorithm/programmers/StringSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/programmers/StringDESC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/programmers/StringDESC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/programmers/StringSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/programmers/StringSorting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java_study/Chap2/Car.java">
+        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/12.0.2.j9-adpt/lib/src.zip!/java.base/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java_study/Chap2/CheapCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="73">
+              <caret line="691" column="52" selection-start-line="691" selection-start-column="44" selection-end-line="691" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -88,10 +79,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringDESC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="218">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Tuple.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Test.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/StringSorting.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/programmers/StringDESC.java" />
       </list>
     </option>
   </component>
@@ -258,9 +262,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringSorting">
-    <configuration name="SkillCheckLevel2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.SkillCheckLevel2" />
+  <component name="RunManager" selected="Application.StringDESC">
+    <configuration name="SkillCheckLevel2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.SkillCheckLevel2_2" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -272,8 +276,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkillCheckLevel2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.SkillCheckLevel2_2" />
+    <configuration name="StringDESC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.StringDESC" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -326,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringDESC" />
         <item itemvalue="Application.StringSorting" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Tuple" />
         <item itemvalue="Application.SkillCheckLevel2_2" />
-        <item itemvalue="Application.SkillCheckLevel2" />
       </list>
     </recent_temporary>
   </component>
@@ -350,18 +354,18 @@
       <workItem from="1605173248675" duration="305000" />
       <workItem from="1605425166625" duration="511000" />
       <workItem from="1605459443692" duration="6640000" />
-      <workItem from="1608723599745" duration="6980000" />
+      <workItem from="1608723599745" duration="9047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16962000" />
+    <option name="totallyTimeSpent" value="19029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -371,12 +375,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32923833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -616,8 +620,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="218">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/12.0.2.j9-adpt/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="691" column="52" selection-start-line="691" selection-start-column="44" selection-end-line="691" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringDESC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
