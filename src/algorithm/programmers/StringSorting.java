@@ -30,7 +30,7 @@ public class StringSorting {
 
     public static String[] solution(String[] strings, int n) {
 
-        Arrays.sort(strings, (o1, o2) -> {
+        Arrays.sort(strings, (String o1, String o2) -> {
             if(o1.charAt(n) > o2.charAt(n)) {
                 return 1;
             } else if (o1.charAt(n) == o2.charAt(n)){
