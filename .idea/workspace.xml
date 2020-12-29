@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7c84d5-9351-4e51-81ff-fe06fa09bc4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/Level1_12926.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/Level1_12928.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/Level1_12930.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/Level1_70128.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapterpattern/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapterpattern/AdapterImple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapterpattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapterpattern/Math1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/Socket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapterTestDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/Volt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/META-INF/JAVA.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/programmers/FindingPrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/programmers/FindingPrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/programmers/Level1_12922.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/programmers/Level1_12922.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/programmers/Level1_12925.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/programmers/Level1_12925.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,81 +26,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12926.java">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/Socket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="63">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding>
+                <element signature="e#93#94#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12928.java">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="42">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapterImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12930.java">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapterTestDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state relative-caret-position="189">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_70128.java">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/Volt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringDESC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="189">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringHandling.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringSorting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Tuple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1722">
-              <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/algorithm/programmers/SkillCheckLevel2.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/SkillCheckLevel2_2.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Tuple.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/programmers/Test.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/StringSorting.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/StringDESC.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/FindingKimInSeoul.java" />
@@ -164,6 +143,16 @@
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Level1_12926.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Level1_12928.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Level1_12930.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/programmers/Test.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/Math1.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/AdapterImple.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/Main.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/Volt.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/Socket.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapter.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapterImpl.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapterTestDriver.java" />
       </list>
     </option>
   </component>
@@ -185,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,19 +190,20 @@
               <item name="dive-into-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dive-into-java(github)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="adapterpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dive-into-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dive-into-java(github)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
+              <item name="adapterpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="exam2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -254,33 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Level1_12930">
-    <configuration name="Level1_12925" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.Level1_12925" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Level1_12926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.Level1_12926" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SocketAdapterTestDriver">
     <configuration name="Level1_12928" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.programmers.Level1_12928" />
       <module name="JAVA" />
@@ -307,8 +270,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level1_70128" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.Level1_70128" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.adapterpattern.exam1.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.adapterpattern.exam1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketAdapterTestDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.adapterpattern.exam2.SocketAdapterTestDriver" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.adapterpattern.exam2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.Test" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -322,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocketAdapterTestDriver" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Level1_12930" />
         <item itemvalue="Application.Level1_12928" />
-        <item itemvalue="Application.Level1_12926" />
-        <item itemvalue="Application.Level1_70128" />
-        <item itemvalue="Application.Level1_12925" />
       </list>
     </recent_temporary>
   </component>
@@ -349,18 +338,19 @@
       <workItem from="1608723599745" duration="9703000" />
       <workItem from="1608964443031" duration="2294000" />
       <workItem from="1609050166922" duration="7554000" />
-      <workItem from="1609220231578" duration="2888000" />
+      <workItem from="1609220231578" duration="3351000" />
+      <workItem from="1609264208272" duration="1375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32421000" />
+    <option name="totallyTimeSpent" value="34259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -370,7 +360,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,30 +387,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/abstractclass_templatepattern/ex1/NoteBook.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractclass_templatepattern/ex3/SuperLevel.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractclass_templatepattern/ex4/SportsCar.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractclass_templatepattern/템플릿패턴?.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractclass_templatepattern/ex4/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory_pattern/Computer.java" />
-    <entry file="file://$PROJECT_DIR$/src/factory_pattern/PC.java" />
-    <entry file="file://$PROJECT_DIR$/src/factory_pattern/Server.java" />
-    <entry file="file://$PROJECT_DIR$/src/factory_pattern/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/factory_pattern/ComputerFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/factory_pattern/factory_pattern/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -524,7 +490,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/SkillCheckLevel2.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/SkillCheckLevel2_2.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Test.java" />
     <entry file="jar://$USER_HOME$/.sdkman/candidates/java/12.0.2.j9-adpt/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13293">
@@ -613,6 +578,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/12.0.2.j9-adpt/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="3179" column="20" selection-start-line="3179" selection-start-column="20" selection-end-line="3179" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/12.0.2.j9-adpt/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="359" column="26" selection-start-line="359" selection-start-column="26" selection-end-line="359" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12926.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12928.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12930.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringDESC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -620,13 +621,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringHandling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -650,45 +644,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/12.0.2.j9-adpt/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/StringHandling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="3179" column="20" selection-start-line="3179" selection-start-column="20" selection-end-line="3179" selection-end-column="20" />
+        <state relative-caret-position="565">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/12.0.2.j9-adpt/lib/src.zip!/java.base/java/lang/Math.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="359" column="26" selection-start-line="359" selection-start-column="26" selection-end-line="359" selection-end-column="26" />
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_70128.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12926.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/Math1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="189">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12928.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="168">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12930.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="147">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/AdapterImple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/Volt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam2/SocketAdapterTestDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
