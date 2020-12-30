@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7c84d5-9351-4e51-81ff-fe06fa09bc4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex1/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex1/Desktop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex1/MyNotebook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex1/NoteBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex1/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex2/AiCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex2/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex2/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex2/ManualCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex3/AdvancedLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex3/BeginnerLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex3/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex3/PlayerLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex3/SuperLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex3/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex4/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex4/EcoCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex4/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/ex4/SportsCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/추상클래스란?.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/abstractclass_templatepattern/템플릿패턴?.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/algorithm/programmers/Level1_12932.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/algorithm/programmers/Level1_12932.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/abstract_factory_pattern/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/abstract_factory_pattern/ComputerAbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/abstract_factory_pattern/ComputerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/abstract_factory_pattern/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/abstract_factory_pattern/PC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/abstract_factory_pattern/PcFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/abstract_factory_pattern/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/abstract_factory_pattern/ServerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/factory_pattern/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/factory_pattern/ComputerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/factory_pattern/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/factory_pattern/PC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/factory_pattern/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/factory_pattern/팩토리패턴.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/java_study/Chap2/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/java_study/Chap2/CheapCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/java_study/Chap2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/Desktop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/MyNotebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/MyNotebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/NoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/NoteBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex2/AiCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex2/AiCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex2/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex2/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex2/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex2/ManualCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex2/ManualCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/AdvancedLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/AdvancedLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/BeginnerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/BeginnerLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/PlayerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/PlayerLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/SuperLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/SuperLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex3/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex4/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex4/EcoCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex4/EcoCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex4/SportsCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractclass_templatepattern/ex4/SportsCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="466">
+              <caret line="114" column="75" selection-start-line="114" selection-start-column="75" selection-end-line="114" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -153,8 +95,8 @@
         <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/exam1/Math1AdapterImpl.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Level1_12931.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Level1_12932.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Level1_12933.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -195,13 +137,6 @@
               <item name="Dive-into-java(github)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dive-into-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dive-into-java(github)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dive-into-java" type="b2602c69:ProjectViewProjectNode" />
@@ -349,15 +284,16 @@
       <workItem from="1609050166922" duration="7554000" />
       <workItem from="1609220231578" duration="3351000" />
       <workItem from="1609264208272" duration="1897000" />
-      <workItem from="1609309088180" duration="3417000" />
+      <workItem from="1609309088180" duration="3705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38198000" />
+    <option name="totallyTimeSpent" value="38486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -736,8 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="466">
+          <caret line="114" column="75" selection-start-line="114" selection-start-column="75" selection-end-line="114" selection-end-column="75" />
         </state>
       </provider>
     </entry>
