@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7c84d5-9351-4e51-81ff-fe06fa09bc4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/Level1_12931.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/Level1_12932.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12931.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12932.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,15 +43,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designpattern/adapterpattern/exam1/Math1Adapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -135,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/abstractclass/ex4/SportsCar.java" />
         <option value="$PROJECT_DIR$/src/abstractclass_templatepattern/ex4/SportsCar.java" />
         <option value="$PROJECT_DIR$/src/factory_method_pattern/Computer.java" />
         <option value="$PROJECT_DIR$/src/factory_method_pattern/PC.java" />
@@ -186,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/exam1/Math1Adapter.java" />
         <option value="$PROJECT_DIR$/src/designpattern/adapterpattern/exam1/Math1AdapterImpl.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Level1_12931.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/programmers/Level1_12932.java" />
       </list>
     </option>
   </component>
@@ -276,9 +279,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Level1_12931">
-    <configuration name="Level1_12930" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.Level1_12930" />
+  <component name="RunManager" selected="Application.Level1_12932">
+    <configuration name="Level1_12931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.Level1_12931" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -290,8 +293,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level1_12931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.Level1_12931" />
+    <configuration name="Level1_12932" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.programmers.Level1_12932" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -344,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Level1_12932" />
         <item itemvalue="Application.Level1_12931" />
         <item itemvalue="Application.SocketAdapterTestDriver" />
         <item itemvalue="Application.Math1AdapterTestDriver" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Level1_12930" />
       </list>
     </recent_temporary>
   </component>
@@ -373,12 +376,12 @@
       <workItem from="1609050166922" duration="7554000" />
       <workItem from="1609220231578" duration="3351000" />
       <workItem from="1609264208272" duration="1897000" />
-      <workItem from="1609309088180" duration="551000" />
+      <workItem from="1609309088180" duration="1284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35332000" />
+    <option name="totallyTimeSpent" value="36065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -421,13 +424,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/factory_pattern/factory_pattern/PC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/factory_pattern/abstract_factory_pattern/Server.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -758,8 +754,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12931.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="360">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Level1_12932.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
