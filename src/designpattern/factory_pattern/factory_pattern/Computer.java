@@ -1,4 +1,4 @@
-package factory_pattern.abstract_factory_pattern;
+package designpattern.factory_pattern.factory_pattern;
 
 public abstract class Computer {
 
