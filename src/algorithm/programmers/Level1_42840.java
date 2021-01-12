@@ -22,7 +22,7 @@ https://programmers.co.kr/learn/courses/30/lessons/42840
 
 import java.util.ArrayList;
 
-public class Level_42840 {
+public class Level1_42840 {
     public static void main(String[] args) {
         int[] test ={2,1,2,3,2,4,2,5};
         solution(test);
