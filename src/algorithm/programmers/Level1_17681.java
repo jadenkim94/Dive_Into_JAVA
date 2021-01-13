@@ -46,33 +46,8 @@ public class Level1_17681 {
         String [] answer1 = new String[n];
         String [] answer2 = new String[n];
 
-        for(int i = 0; i < arr1.length; i++){
-            int element = arr1[i];
-            for(int j = n-1; j >= 0; j--){
-                if(element >= Math.pow(2, j)){
-                    stringBuilder.append("#");
-                    element -= Math.pow(2, j);
-                } else{
-                    stringBuilder.append(" ");
-                }
-            }
-            answer1[i] = stringBuilder.toString();
-            stringBuilder.delete(0, n);
-        }
-
-        for(int i = 0; i < arr2.length; i++){
-            int element = arr2[i];
-            for(int j = n-1; j >= 0; j--){
-                if(element >= Math.pow(2, j)){
-                    stringBuilder.append("#");
-                    element -= Math.pow(2, j);
-                } else{
-                    stringBuilder.append(" ");
-                }
-            }
-            answer2[i] = stringBuilder.toString();
-            stringBuilder.delete(0, n);
-        }
+        drawMap(n, arr1, stringBuilder, answer1);
+        drawMap(n, arr2, stringBuilder, answer2);
 
         for(int i = 0; i < answer.length; i++){
             for(int j = 0; j < answer.length; j++){
@@ -87,6 +62,22 @@ public class Level1_17681 {
         }
 
         return answer;
+    }
+
+    private static void drawMap(int n, int[] arr, StringBuilder stringBuilder, String[] answer) {
+        for (int i = 0; i < arr.length; i++) {
+            int element = arr[i];
+            for (int j = n - 1; j >= 0; j--) {
+                if (element >= Math.pow(2, j)) {
+                    stringBuilder.append("#");
+                    element -= Math.pow(2, j);
+                } else {
+                    stringBuilder.append(" ");
+                }
+            }
+            answer[i] = stringBuilder.toString();
+            stringBuilder.delete(0, n);
+        }
     }
 
 }
