@@ -71,10 +71,8 @@ public class Level1_42889 {
 
     public static int[] solution(int N, int[] stages) {
         int[] answer = new int[N];
-
-        int [] clearCount = new int[N];     // 0 1 2 3 4
+        int [] clearCount = new int[N];
         double [] failPercent = new double[N];
-
 
         for(int i = 0 ; i < stages.length; i++){
             for(int j = 0 ; j < stages[i]-1; j++){
@@ -82,10 +80,7 @@ public class Level1_42889 {
             }
         }
 
-
         failPercent[0] =  (double)(stages.length-clearCount[0])/stages.length;
-
-
 
         for(int i = 0 ; i < clearCount.length-1; i++){
             if(clearCount[i] == 0 ){
@@ -107,8 +102,6 @@ public class Level1_42889 {
         for(int i = 0; i < answer.length; i++){
             answer[i] = keySetList.get(i);
         }
-
-
         return answer;
     }
 }
