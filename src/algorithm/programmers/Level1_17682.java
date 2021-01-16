@@ -86,21 +86,21 @@ public class Level1_17682 {
                 // 10점인 경우
                 heatScore = 10;
                 // S D T 처리
-                int scoreWithSDT = SDTaddaptor(scoreStr, i, heatScore, 2);
+                int scoreWithSDT = SDTadaptor(scoreStr, i, heatScore, 2);
                 heatScores[i] = scoreWithSDT;
 
             } else {
                 // 0~9점인 경우
                 heatScore = Integer.parseInt(String.valueOf(scoreStr.get(i).charAt(0)));
                 // S D T 처리
-                int scoreWithSDT = SDTaddaptor(scoreStr, i, heatScore, 1);
+                int scoreWithSDT = SDTadaptor(scoreStr, i, heatScore, 1);
                 heatScores[i] = scoreWithSDT;
             }
         }
 
         // 옵션처리
         for (int i = 0; i < scoreStr.size(); i++) {
-                setOptions(scoreStr, options, i);
+            setOptions(scoreStr, options, i);
         }
 
         int answer = 0;
@@ -122,9 +122,7 @@ public class Level1_17682 {
             options[i] *= -1;
         }
     }
-
-
-    private static int SDTaddaptor(ArrayList<String> scoreStr, int i, int heatScore, int charAt) {
+    private static int SDTadaptor(ArrayList<String> scoreStr, int i, int heatScore, int charAt) {
         switch (scoreStr.get(i).charAt(charAt)) {
             case 'S':
                 heatScore = (int) Math.pow(heatScore, 1);
