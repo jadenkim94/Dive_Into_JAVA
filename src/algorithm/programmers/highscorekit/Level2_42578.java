@@ -44,17 +44,17 @@ public class Level2_42578 {
 
     public static int solution(String[][] clothes) {
         int answer = 1;
-        Hashtable<String, Integer> hashtable = new Hashtable<>();
+        HashMap<String, Integer> hashMap = new HashMap<>();
         for(int i = 0; i < clothes.length; i++){
-            hashtable.put(clothes[i][1], 0);
+            hashMap.put(clothes[i][1], 0);
         }
 
         for(int i = 0; i < clothes.length; i++){
-            hashtable.put(clothes[i][1], hashtable.get(clothes[i][1])+1);
+            hashMap.put(clothes[i][1], hashMap.get(clothes[i][1])+1);
         }
 
-        Integer[] arr = new Integer[hashtable.size()];
-        hashtable.values().toArray(arr);
+        Integer[] arr = new Integer[hashMap.size()];
+        hashMap.values().toArray(arr);
 
         for(int i = 0 ; i < arr.length; i++){
             arr[i] = arr[i]+1;
