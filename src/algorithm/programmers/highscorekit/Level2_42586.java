@@ -56,6 +56,7 @@ public class Level2_42586 {
         Queue<Integer> waitingQueue = new LinkedList<>();
         Queue<Integer> queue = new LinkedList<>();
 
+        // 작업률이 100 이상 되는데 필요한 날짜 구하기.
         for(int i = 0 ; i < progresses.length; i++){
             int days = 0;
             while (progresses[i] < 100){
@@ -65,15 +66,21 @@ public class Level2_42586 {
             day[i] = days;
         }
 
+        // 첫 번째 작업에 필요한 남은 날짜는 직접 넣어줬습니다.
         waitingQueue.add(day[0]);
 
+        // 다음 작업부터는 반복문을 돌면서
         for(int i = 1; i < day.length; i++){
+            // waitingQueue 가 비었다면 waitingQueue 에 다음 작업에 걸리는 날짜를 집어넣습니다.
             if(waitingQueue.isEmpty()){
                 waitingQueue.add(day[i]);
             }else {
+                // 비어있지 않다면 현재작업에 필요한 남은날짜와 waitingQueue 에 남은 값(남은날짜)중 가장 큰값과 비교하게됩니다.
                if(waitingQueue.peek() > day[i]){
+                   // waitingQueue 에 있는 값이 더 크다면 현재작업에 필요한 날짜도 넣어줍니다
                    waitingQueue.add(day[i]);
                } else{
+                   // 현재작업의 남은날짜가 더 크다면, 현재작업이 끝나는 순간 waitingQueue 의 모든 작업이 다 끝남으로 queue 에 waitingQueue 의 사이즈를 넣어줍니다.
                    queue.add(waitingQueue.size());
                    waitingQueue.clear();
                    waitingQueue.add(day[i]);
@@ -81,15 +88,18 @@ public class Level2_42586 {
             }
         }
 
+        // 마지막으로 처리되지 않은 부분을 처리하고
         if(!waitingQueue.isEmpty()){
             queue.add(waitingQueue.size());
         }
 
+        // queue 를 배열로 만들어
         int [] answer = new int[queue.size()];
         for(int i = 0 ; i  < answer.length; i++){
             answer[i] = queue.poll();
         }
 
+        // 반환합니다.
         return answer;
     }
 }
