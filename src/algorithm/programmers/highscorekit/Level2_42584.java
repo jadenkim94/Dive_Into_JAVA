@@ -1,6 +1,5 @@
 package algorithm.programmers.highscorekit;
 
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -52,7 +51,7 @@ public class Level2_42584 {
 
         int i = 0;
         while (!queue.isEmpty()){
-            answer[i] = queue.poll();
+            answer[i] =  queue.poll();
             i++;
         }
         return answer;
