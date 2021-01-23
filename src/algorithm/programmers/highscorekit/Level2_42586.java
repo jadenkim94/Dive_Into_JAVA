@@ -76,7 +76,7 @@ public class Level2_42586 {
                 waitingQueue.add(day[i]);
             }else {
                 // 비어있지 않다면 현재작업에 필요한 남은날짜와 waitingQueue 에 남은 값(남은날짜)중 가장 큰값과 비교하게됩니다.
-               if(waitingQueue.peek() > day[i]){
+               if(waitingQueue.peek() >= day[i]){
                    // waitingQueue 에 있는 값이 더 크다면 현재작업에 필요한 날짜도 넣어줍니다
                    waitingQueue.add(day[i]);
                } else{
@@ -104,11 +104,3 @@ public class Level2_42586 {
     }
 }
 
-/*
-progresses = [98, 99, 97, 96]
-speeds = [1, 1, 1, 1]
-이와 같이
-뒤에 있는 기능이 앞의 기능보다 먼저 종료됨 + 바로 다음 단계에 뒤에 있는 기능도 완료됨
-경우 넣어보세요.
-[2,1,1]이 아니라 [4]가 나올겁니다.
- */
