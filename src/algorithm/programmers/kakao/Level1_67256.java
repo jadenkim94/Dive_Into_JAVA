@@ -1,4 +1,4 @@
-package algorithm.programmers;
+package algorithm.programmers.kakao;
 /*
 [카카오 인턴] 키패드 누르기
 문제 설명
