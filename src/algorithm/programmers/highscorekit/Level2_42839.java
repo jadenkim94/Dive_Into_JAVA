@@ -42,9 +42,9 @@ public class Level2_42839 {
             temp.forEach(i ->{
                 stringBuilder.append(i);
             });
-            String number = stringBuilder.toString();
-            if(isPrime(Integer.parseInt(number)) && Integer.parseInt(number) > 1){
-                result.add(Integer.parseInt(number));
+            int number = Integer.parseInt(stringBuilder.toString());
+            if(isPrime(number)){
+                result.add(number);
             }
             return;
         }
@@ -61,6 +61,8 @@ public class Level2_42839 {
     }
 
     public static Boolean isPrime(int num) {
+        if (num <= 1)
+            return Boolean.FALSE;
         int max = (int) Math.sqrt(num);
         boolean isPrime = true;
         for (int i = 2; i <= max; i++) {
