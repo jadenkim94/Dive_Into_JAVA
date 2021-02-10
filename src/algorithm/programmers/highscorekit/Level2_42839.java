@@ -52,7 +52,7 @@ public class Level2_42839 {
         for(int i = 0 ; i < numbers.length(); i++){
             if(visited[i] == false){
                 visited[i] = true;
-                temp.add(Integer.valueOf(String.valueOf(numbers.charAt(i))));
+                temp.add(numbers.charAt(i) - '0');
                 permutation(numbers, m);
                 visited[i] = false;
                 temp.remove(temp.size()-1);
