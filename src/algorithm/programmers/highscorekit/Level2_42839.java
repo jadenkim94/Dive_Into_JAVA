@@ -50,7 +50,7 @@ public class Level2_42839 {
         }
 
         for(int i = 0 ; i < numbers.length(); i++){
-            if(visited[i] == false){
+            if(!visited[i]){
                 visited[i] = true;
                 temp.add(numbers.charAt(i) - '0');
                 permutation(numbers, m);
