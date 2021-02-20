@@ -26,7 +26,6 @@ public class Level3_49189 {
     public static void main(String[] args) {
         System.out.println(solution(6, new int[][]{{3, 6}, {4, 3}, {3, 2}, {1, 3}, {1, 2}, {2, 4}, {5, 2}}));
     }
-
     // 구해야하는 것! 1번 노드로부터 가장 멀리떨어진 노드의 갯수.
     public static int solution(int n, int[][] edge) {
 
