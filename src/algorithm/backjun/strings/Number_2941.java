@@ -29,44 +29,44 @@ public class Number_2941 {
 
         char[] chars = input.toCharArray();
         Stack<Character> stack = new Stack<>();
-        for(int i = 0 ; i < chars.length; i++){
-           stack.push(chars[i]);
-           if(chars[i] == '-' || chars[i] == '='){
-               char poped1 = stack.pop();
-               if(stack.isEmpty()){
-                   length --;
-                   stack.add(poped1);
-                   continue;
-               }
-               char poped2 = stack.pop();
-               if(stack.isEmpty()){
-                    length --;
+        for (int i = 0; i < chars.length; i++) {
+            stack.push(chars[i]);
+            if (chars[i] == '-' || chars[i] == '=') {
+                char poped1 = stack.pop();
+                if (stack.isEmpty()) {
+                    length--;
+                    stack.add(poped1);
+                    continue;
+                }
+                char poped2 = stack.pop();
+                if (stack.isEmpty()) {
+                    length--;
                     stack.add(poped2);
                     stack.add(poped1);
                     continue;
-               }
-               if(stack.peek() == 'd' && poped2 =='z'){
-                   length -= 2;
-                   stack.add(poped2);
-                   stack.add(poped1);
-                   continue;
-               }
-               length --;
-               stack.add(poped2);
-               stack.add(poped1);
-               continue;
-           }
-           if(chars[i] == 'j'){
-               char poped1 = stack.pop();
-               if(stack.isEmpty()){
-                   stack.add(poped1);
-                   continue;
-               }
-               if(stack.peek() == 'l' || stack.peek() == 'n'){
-                   length --;
-                   stack.add(poped1);
-               }
-           }
+                }
+                if (stack.peek() == 'd' && poped2 == 'z') {
+                    length -= 2;
+                    stack.add(poped2);
+                    stack.add(poped1);
+                    continue;
+                }
+                length--;
+                stack.add(poped2);
+                stack.add(poped1);
+                continue;
+            }
+            if (chars[i] == 'j') {
+                char poped1 = stack.pop();
+                if (stack.isEmpty()) {
+                    stack.add(poped1);
+                    continue;
+                }
+                if (stack.peek() == 'l' || stack.peek() == 'n') {
+                    length--;
+                    stack.add(poped1);
+                }
+            }
         }
 
         System.out.println(length);
