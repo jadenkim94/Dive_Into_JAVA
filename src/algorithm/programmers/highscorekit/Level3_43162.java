@@ -19,7 +19,7 @@ https://programmers.co.kr/learn/courses/30/lessons/43162
 i번 컴퓨터와 j번 컴퓨터가 연결되어 있으면 computerArr[i][j]를 1로 표현합니다.
 computer[i][i]는 항상 1입니다.
 
-3	[[1, 1, 0], [1, 1, 0], [0, 0, 1]]	2
+
  */
 public class Level3_43162 {
 
