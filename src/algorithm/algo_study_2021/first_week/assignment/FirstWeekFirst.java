@@ -31,7 +31,7 @@ public class FirstWeekFirst {
                 // j =  0, 1, 2, 3, 4
                 int doll = board[j][moves[i] - 1];
                 if(doll != 0){ // 인형이 있는 경우
-                    board[j][moves[i]-1] = 0;
+                    board[j][moves[i]-1] = 0; // 처음에 뽑은 인형을 0 으로 처리하지않아서, 실패
                     if(collection.isEmpty()){ // 인형바구니가 비었다면
                         collection.add(doll); // 인형을 넣어준다
                         break;
