@@ -31,10 +31,10 @@ public class StringCompress {
             for(; pos + i <= s.length(); ){
                 // temp = 다음 문자열과 같은지 확인하기 위한 기준문자열의 인덱스
                 String temp = s.substring(pos, pos+i);
+                System.out.println(temp);
                 pos += i;
                 // count = temp 와 같은 문자열이 뒤에 존재하면 count 해줄것임
                 int count = 0;
-                // next = temp 다음 문자열들의 인덱스
                 for(; pos + i <= s.length(); ){
                     if(temp.equals(s.substring(pos, pos+i))){
                         count++;
