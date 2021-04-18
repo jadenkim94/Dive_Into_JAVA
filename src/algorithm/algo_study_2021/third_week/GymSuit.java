@@ -10,9 +10,7 @@ public class GymSuit {
     static ArrayList<Integer> lostList = new ArrayList<>();
     static ArrayList<Integer> reserveList = new ArrayList<>();
     public static void main(String[] args) {
-
         System.out.println(solution(5, new int[]{2,4}, new int[]{1,3,5}));
-
     }
 
     /**
