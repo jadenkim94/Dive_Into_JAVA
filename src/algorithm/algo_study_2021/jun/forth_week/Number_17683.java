@@ -9,19 +9,32 @@ public class Number_17683 {
         int startTime;
         int endTime;
         String title;
-        String lime;
+        String musicalNote;
         int repeat;
-        String totalLime;
+        String onAirNote;
         int playTime;
 
-        public Music(int startTime, int endTime, String title, String lime, int repeat, String totalLime, int playTime) {
+        public Music(int startTime, int endTime, String title, String musicalNote, int repeat, String onAirNote, int playTime) {
             this.startTime = startTime;
             this.endTime = endTime;
             this.title = title;
-            this.lime = lime;
+            this.musicalNote = musicalNote;
             this.repeat = repeat;
-            this.totalLime = totalLime;
+            this.onAirNote = onAirNote;
             this.playTime = playTime;
+        }
+
+        @Override
+        public String toString() {
+            return "Music{" +
+                    "startTime=" + startTime +
+                    ", endTime=" + endTime +
+                    ", title='" + title + '\'' +
+                    ", musicalNote='" + musicalNote + '\'' +
+                    ", repeat=" + repeat +
+                    ", onAirNote='" + onAirNote + '\'' +
+                    ", playTime=" + playTime +
+                    '}';
         }
     }
 
@@ -35,34 +48,48 @@ public class Number_17683 {
     }
 
     public static String solution(String m, String[] musicinfos) {
-        String answer = "";
 
         musicList = new Music[musicinfos.length];
+
         for(int i = 0; i < musicinfos.length; i++){
             String[] split = musicinfos[i].split(",");
 
+            // 방송 시작 시간
             int startTime = convertToMinute(split[0]);
+            // 방송 종료 시간
             int endTime = convertToMinute(split[1]);
+            // 제목
             String title = split[2];
-            String lime = split[3];
-            String removedLime = removePoundKey(lime);
-            int playTime = removedLime.length();
-            int repeat = getRepeat(startTime, endTime, playTime);
-            String totalLime = getTotalLime(removedLime, repeat, endTime-startTime);
-            musicList[i] = new Music(startTime, endTime, title, lime, repeat, totalLime, playTime);
+            // 악보
+            String musicalNote = split[3];
+            // # 을 치환한 악보
+            String poundKeyRemovedMusicalNote = removePoundKey(musicalNote);
+            // 음악의 연주 시간
+            int musicTime = poundKeyRemovedMusicalNote.length();
+            // 방송된 연주 시간
+            int playTime = getPlayTime(startTime, endTime, poundKeyRemovedMusicalNote);
+            // 악보 반복 횟수
+            int repeat = getRepeat(startTime, endTime, musicTime, playTime);
+
+            // 방송된 음악의 악보
+            String onAirNote = getOnAirNote(poundKeyRemovedMusicalNote, repeat, playTime);
+
+            musicList[i] = new Music(startTime, endTime, title, musicalNote, repeat, onAirNote, playTime);
         }
 
 
+        // 조건이 일치하는 음악목록
         ArrayList<Music> possibleList = new ArrayList<>();
 
         for (Music music : musicList) {
-            if(music.totalLime.contains(removePoundKey(m))){
+            System.out.println(music);
+            if(music.onAirNote.contains(removePoundKey(m))){
                 possibleList.add(music);
             }
         }
 
+        // 조건이 일치하며 방송시간이 가장 긴 음악목록
         Stack<Music> possibleStack = new Stack<>();
-
 
         int longestTime = Integer.MIN_VALUE;
 
@@ -86,6 +113,12 @@ public class Number_17683 {
 
     }
 
+    private static int getPlayTime(int startTime, int endTime, String poundKeyRemovedMusicalNote) {
+        if( (endTime - startTime) < poundKeyRemovedMusicalNote.length() ) return endTime-startTime;
+        else return poundKeyRemovedMusicalNote.length();
+    }
+
+    // 우물정 제거
     private static String removePoundKey(String lime) {
         char[] chars = lime.toCharArray();
         StringBuilder sb = new StringBuilder();
@@ -112,32 +145,36 @@ public class Number_17683 {
         return sb.toString();
     }
 
-    private static String getTotalLime(String lime, int repeat, int playTime) {
+    // 결과적으로 재생되는 멜로디
+    private static String getOnAirNote(String poundKeyRemovedMusicalNote, int repeat, int playTime) {
         StringBuilder sb = new StringBuilder();
-        if(playTime > lime.length() && repeat == 0){
-            char[] chars = lime.toCharArray();
+
+        if(playTime < poundKeyRemovedMusicalNote.length() && repeat == 0){
+            char[] chars = poundKeyRemovedMusicalNote.toCharArray();
             for(int i = 0; i < playTime; i++){
                 sb.append(chars[i]);
             }
             return sb.toString();
         }
 
-        if (repeat == 0) return lime;
+        if (repeat == 0) return poundKeyRemovedMusicalNote;
 
         for(int i = 0; i < repeat; i++){
-            sb.append(lime);
+            sb.append(poundKeyRemovedMusicalNote);
         }
         return sb.toString();
     }
 
-    private static int getRepeat(int startTime, int endTime, int playTime){
-        return (endTime-startTime)/playTime;
+    // 반복횟수
+    private static int getRepeat(int startTime, int endTime, int musicTime, int playTime){
+        if(musicTime < playTime) return 0;
+        else return (endTime-startTime)/musicTime;
     }
 
     private static int convertToMinute(String time) {
-        String[] split1 = time.split(":");
-        int hour = Integer.parseInt(split1[0]);
-        int minute = Integer.parseInt(split1[1]);
+        String[] split = time.split(":");
+        int hour = Integer.parseInt(split[0]);
+        int minute = Integer.parseInt(split[1]);
         int totalMin = hour * 60 + minute;
         return totalMin;
     }
