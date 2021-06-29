@@ -1,7 +1,9 @@
 package algorithm.algo_study_2021.jun.forth_week;
 
 import java.util.ArrayList;
-import java.util.Stack;
+import java.util.LinkedList;
+import java.util.Queue;
+
 
 public class Number_17683 {
 
@@ -42,9 +44,8 @@ public class Number_17683 {
 
     public static void main(String[] args) {
         String m = "ABC";
-        String [] musicinfos = {"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"};
+        String [] musicinfos = {"12:00,12:14,HELLO,C#DEFGAB", "13:55,14:00,WORLD,ABCDEF", "14:05,14:15,TEST,ABCDE", "14:30,14:40,TEST2,ABCDE", "14:55,15:00,TEST3,ABCDE"};
         System.out.println(solution(m, musicinfos));
-
     }
 
     public static String solution(String m, String[] musicinfos) {
@@ -67,7 +68,7 @@ public class Number_17683 {
             // 음악의 연주 시간
             int musicTime = poundKeyRemovedMusicalNote.length();
             // 방송된 연주 시간
-            int playTime = getPlayTime(startTime, endTime, poundKeyRemovedMusicalNote);
+            int playTime = endTime - startTime;
             // 악보 반복 횟수
             int repeat = getRepeat(startTime, endTime, musicTime, playTime);
 
@@ -88,68 +89,47 @@ public class Number_17683 {
             }
         }
 
+
         // 조건이 일치하며 방송시간이 가장 긴 음악목록
-        Stack<Music> possibleStack = new Stack<>();
+        Queue<Music> possibleQue = new LinkedList<>();
 
         int longestTime = Integer.MIN_VALUE;
 
         for(int i = 0; i < possibleList.size(); i++){
             if(longestTime < possibleList.get(i).playTime){
                 longestTime = possibleList.get(i).playTime;
-                while (!possibleStack.isEmpty()){
-                    possibleStack.pop();
+                while (!possibleQue.isEmpty()){
+                    possibleQue.poll();
                 }
-                possibleStack.add(possibleList.get(i));
+                possibleQue.add(possibleList.get(i));
             } else if ( longestTime == possibleList.get(i).playTime){
-                possibleStack.add(possibleList.get(i));
+                possibleQue.add(possibleList.get(i));
             }
         }
 
-        if(possibleStack.isEmpty()){
+        if(possibleQue.isEmpty()){
             return "(None)";
         } else {
-            return possibleStack.pop().title;
+            return possibleQue.peek().title;
         }
 
-    }
-
-    private static int getPlayTime(int startTime, int endTime, String poundKeyRemovedMusicalNote) {
-        if( (endTime - startTime) < poundKeyRemovedMusicalNote.length() ) return endTime-startTime;
-        else return poundKeyRemovedMusicalNote.length();
     }
 
     // 우물정 제거
-    private static String removePoundKey(String lime) {
-        char[] chars = lime.toCharArray();
-        StringBuilder sb = new StringBuilder();
-        for(int i = 0; i < chars.length; i++){
-            if(chars[i] == '#'){
-                if(chars[i-1] == 'C'){
-                    sb.deleteCharAt(sb.length()-1);
-                    sb.append('X');
-                } else if (chars[i-1] == 'D'){
-                    sb.deleteCharAt(sb.length()-1);
-                    sb.append("Y");
-                } else if (chars[i-1] == 'F'){
-                    sb.deleteCharAt(sb.length()-1);
-                    sb.append("Z");
-                } else if (chars[i-1] == 'G') {
-                    sb.deleteCharAt(sb.length()-1);
-                    sb.append("N");
-                } else if(chars[i-1] == 'A'){
-                    sb.deleteCharAt(sb.length()-1);
-                    sb.append("M");
-                }
-            } else sb.append(chars[i]);
-        }
-        return sb.toString();
+    private static String removePoundKey(String musicalNote) {
+        musicalNote = musicalNote.replace("C#", "c");
+        musicalNote = musicalNote.replace("D#", "d");
+        musicalNote = musicalNote.replace("F#", "f");
+        musicalNote = musicalNote.replace("G#", "g");
+        musicalNote = musicalNote.replace("A#", "a");
+        return musicalNote;
     }
 
     // 결과적으로 재생되는 멜로디
     private static String getOnAirNote(String poundKeyRemovedMusicalNote, int repeat, int playTime) {
         StringBuilder sb = new StringBuilder();
 
-        if(playTime < poundKeyRemovedMusicalNote.length() && repeat == 0){
+        if(playTime < poundKeyRemovedMusicalNote.length()){
             char[] chars = poundKeyRemovedMusicalNote.toCharArray();
             for(int i = 0; i < playTime; i++){
                 sb.append(chars[i]);
@@ -167,7 +147,7 @@ public class Number_17683 {
 
     // 반복횟수
     private static int getRepeat(int startTime, int endTime, int musicTime, int playTime){
-        if(musicTime < playTime) return 0;
+        if(musicTime > playTime) return 0;
         else return (endTime-startTime)/musicTime;
     }
 
