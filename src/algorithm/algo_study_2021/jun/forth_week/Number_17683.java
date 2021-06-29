@@ -1,13 +1,12 @@
 package algorithm.algo_study_2021.jun.forth_week;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.PriorityQueue;
 
 
 public class Number_17683 {
 
-    static class Music{
+    static class Music implements Comparable<Music>{
         int startTime;
         int endTime;
         String title;
@@ -23,6 +22,11 @@ public class Number_17683 {
             this.onAirNote = onAirNote;
             this.playTime = playTime;
         }
+
+        @Override
+        public int compareTo(Music m) {
+            return m.playTime - this.playTime;
+        }
     }
 
     static Music[] musicList;
@@ -31,8 +35,12 @@ public class Number_17683 {
         String m = "ABC";
         String [] musicinfos = {"12:00,12:14,HELLO,C#DEFGAB",
                 "13:55,14:00,WORLD,ABCDEF",
-                "14:30,14:36,TEST,ABC#AB"
+                "14:30,14:35,TEST,ABC#AB",
+                "14:40,15:00,TEST2,ABC",
+                "15:00,15:20,TEST3,ABC"
         };
+
+        solution(m, musicinfos);
     }
 
     public static String solution(String m, String[] musicinfos) {
@@ -75,26 +83,16 @@ public class Number_17683 {
         }
 
         // 조건이 일치하며 방송시간이 가장 긴 음악목록
-        Queue<Music> possibleQue = new LinkedList<>();
+        PriorityQueue<Music> pq = new PriorityQueue<>();
 
-        int longestTime = Integer.MIN_VALUE;
-
-        for(int i = 0; i < possibleList.size(); i++){
-            if(longestTime < possibleList.get(i).playTime){
-                longestTime = possibleList.get(i).playTime;
-                while (!possibleQue.isEmpty()){
-                    possibleQue.poll();
-                }
-                possibleQue.add(possibleList.get(i));
-            } else if ( longestTime == possibleList.get(i).playTime){
-                possibleQue.add(possibleList.get(i));
-            }
+        for(Music music : possibleList){
+            pq.add(music);
         }
 
-        if(possibleQue.isEmpty()){
+        if(pq.isEmpty()){
             return "(None)";
         } else {
-            return possibleQue.peek().title;
+            return pq.peek().title;
         }
 
     }
