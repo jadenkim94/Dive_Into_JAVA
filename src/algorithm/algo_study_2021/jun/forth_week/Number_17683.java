@@ -12,31 +12,16 @@ public class Number_17683 {
         int endTime;
         String title;
         String musicalNote;
-        int repeat;
         String onAirNote;
         int playTime;
 
-        public Music(int startTime, int endTime, String title, String musicalNote, int repeat, String onAirNote, int playTime) {
+        public Music(int startTime, int endTime, String title, String musicalNote, String onAirNote, int playTime) {
             this.startTime = startTime;
             this.endTime = endTime;
             this.title = title;
             this.musicalNote = musicalNote;
-            this.repeat = repeat;
             this.onAirNote = onAirNote;
             this.playTime = playTime;
-        }
-
-        @Override
-        public String toString() {
-            return "Music{" +
-                    "startTime=" + startTime +
-                    ", endTime=" + endTime +
-                    ", title='" + title + '\'' +
-                    ", musicalNote='" + musicalNote + '\'' +
-                    ", repeat=" + repeat +
-                    ", onAirNote='" + onAirNote + '\'' +
-                    ", playTime=" + playTime +
-                    '}';
         }
     }
 
@@ -44,8 +29,10 @@ public class Number_17683 {
 
     public static void main(String[] args) {
         String m = "ABC";
-        String [] musicinfos = {"12:00,12:14,HELLO,C#DEFGAB", "13:55,14:00,WORLD,ABCDEF", "14:05,14:15,TEST,ABCDE", "14:30,14:40,TEST2,ABCDE", "14:55,15:00,TEST3,ABCDE"};
-        System.out.println(solution(m, musicinfos));
+        String [] musicinfos = {"12:00,12:14,HELLO,C#DEFGAB",
+                "13:55,14:00,WORLD,ABCDEF",
+                "14:30,14:36,TEST,ABC#AB"
+        };
     }
 
     public static String solution(String m, String[] musicinfos) {
@@ -69,13 +56,12 @@ public class Number_17683 {
             int musicTime = poundKeyRemovedMusicalNote.length();
             // 방송된 연주 시간
             int playTime = endTime - startTime;
-            // 악보 반복 횟수
-            int repeat = getRepeat(startTime, endTime, musicTime, playTime);
+
 
             // 방송된 음악의 악보
-            String onAirNote = getOnAirNote(poundKeyRemovedMusicalNote, repeat, playTime);
+            String onAirNote = getOnAirNote(poundKeyRemovedMusicalNote, playTime);
 
-            musicList[i] = new Music(startTime, endTime, title, musicalNote, repeat, onAirNote, playTime);
+            musicList[i] = new Music(startTime, endTime, title, musicalNote, onAirNote, playTime);
         }
 
 
@@ -83,12 +69,10 @@ public class Number_17683 {
         ArrayList<Music> possibleList = new ArrayList<>();
 
         for (Music music : musicList) {
-            System.out.println(music);
             if(music.onAirNote.contains(removePoundKey(m))){
                 possibleList.add(music);
             }
         }
-
 
         // 조건이 일치하며 방송시간이 가장 긴 음악목록
         Queue<Music> possibleQue = new LinkedList<>();
@@ -126,29 +110,19 @@ public class Number_17683 {
     }
 
     // 결과적으로 재생되는 멜로디
-    private static String getOnAirNote(String poundKeyRemovedMusicalNote, int repeat, int playTime) {
+    private static String getOnAirNote(String poundKeyRemovedMusicalNote, int playTime) {
         StringBuilder sb = new StringBuilder();
 
-        if(playTime < poundKeyRemovedMusicalNote.length()){
-            char[] chars = poundKeyRemovedMusicalNote.toCharArray();
-            for(int i = 0; i < playTime; i++){
-                sb.append(chars[i]);
-            }
-            return sb.toString();
+        StringBuilder notes = new StringBuilder();
+        while (notes.length() < playTime){
+            notes.append(poundKeyRemovedMusicalNote);
         }
 
-        if (repeat == 0) return poundKeyRemovedMusicalNote;
-
-        for(int i = 0; i < repeat; i++){
-            sb.append(poundKeyRemovedMusicalNote);
+        for(int i = 0; i < playTime; i++){
+            sb.append(notes.charAt(i));
         }
+
         return sb.toString();
-    }
-
-    // 반복횟수
-    private static int getRepeat(int startTime, int endTime, int musicTime, int playTime){
-        if(musicTime > playTime) return 0;
-        else return (endTime-startTime)/musicTime;
     }
 
     private static int convertToMinute(String time) {
